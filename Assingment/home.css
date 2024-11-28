@@ -1,0 +1,72 @@
+.info{
+    background: rgb(255, 186, 121);
+    color: black;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    position: relative;
+    left: 1100px;
+    top: 40px;
+    font-family: sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+
+.contact{
+    color: black;
+    background: rgb(255, 186, 121);
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.contact{
+    position: relative;
+    left: 1200px;
+    bottom: 200px;
+}
+
+.logo{
+    position: relative;
+    left: 200px;
+    bottom: 100px
+}
+
+.logo{
+    border-radius: 150px;
+    width: 500px;
+    height: 500px;
+}
+
+@media (max-width: 890px){
+    .logo{
+        position: initial;
+        left: 5px;
+        bottom: 250px;
+    }
+    .info{
+        left: 5px;
+        top: 600px;
+        width: fit-content;
+        height: fit-content;
+        position: initial;
+    }
+    .contact{
+        position: initial;
+        left: 130px;
+        width: fit-content;
+        height: fit-content;
+        top: 150px;
+    }
+
+}

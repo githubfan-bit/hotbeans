@@ -1,0 +1,95 @@
+.jobinfo{
+    background-color: rgb(255, 186, 121);
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: center;
+}
+h4{
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.jobinfo{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.req{
+    background-color: rgb(255, 186, 121);
+    width: 600px;
+    height: 710px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h5{
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.req{
+    position: relative;
+    left: 1200px;
+    bottom: 220px;
+}
+
+.quest{
+    background-color: rgb(255, 186, 121);
+    font-family: sans-serif;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 10px;
+    width: 420px;
+    height: 150px;
+}
+
+h6{
+    font-weight: 700;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.quest{
+    position: relative;
+    bottom: 500px;
+    left: 230px;
+}
+
+@media (max-width: 890px){
+
+    .jobinfo{
+        position: initial;
+        left: 10px;
+        right: 10px;
+        width: fit-content;
+        height: fit-content;
+
+    }
+    
+    
+    .req{
+        position: initial;
+        top: 150px;
+        left: 10px;
+        right: 10px;
+        font-size: x-large;
+        width: fit-content;
+        height: fit-content;
+
+    }
+
+    .quest{
+        position: initial;
+        top: 200px;
+        left: 10px;
+        right: 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+}

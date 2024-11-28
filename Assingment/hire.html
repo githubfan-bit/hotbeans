@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Hot Beans</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="allstyle.css">
+    <link rel="stylesheet" href="hire.css">
+    <link rel="script" href="menu.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="icon" type="image/ico" href="logo.jpg" />
+    
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="menu">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="title">Hot Beans</label>
+        <ul class="active">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Job.html">Job Info</a></li>
+            <li><a href="hire.html">Hire</a></li>
+            <li><a href="emp.html">Employees</a></li>
+            <li><a href="course.html">Courses</a></li>
+        </ul>
+    </nav>
+
+    <div class="title">
+        <h7>Application Form</h7>
+        <p>The job application form. Please fill out this form truthly and take your time.</p>
+    </div>
+
+    <div class="form">
+        <form name="myForms" action="/action_page.php" mode="post" onsubmit="return validateForm()"  required>
+            Enter your first name: <br> 
+            <input type="text" name="firstname"><br> <br>
+            Enter your middle name:<br> 
+            <input type="text" name="middlename"><br> <br> 
+            Enter your last name: <br> 
+            <input type="text" name="lastname"><br> <br>
+            Enter your birthday: <br>
+            <input type="date" name="birthday"> <br> <br>
+            Enter your email: <br> 
+            <input type="text" name="email"><br> <br>
+            Enter your phone number:<br> 
+            <input type="text" name="phone"><br> <br>
+            Enter the country you are from:<br>
+            <input type="text" name="country"> <br> <br>
+            Upload your CV:<br>
+            <input type="file" name="CV"><br> <br>
+        </form>
+    </div>
+
+    <div class="form2">
+        <form name="myForms" onsubmit="return validateForm()" mode="post" required>
+            Have you studdied in a web development course? <br>
+            <input type="radio" name="Yes">Yes<br>
+            <input type="radio" name="No">English<br>
+            <input type="radio" name="Current">Currently studdying<br><br>
+            Why do you want this job? <br>
+            <textarea name="Largertextbox">Enter answer here</textarea> <br> <br>
+            Do you have any previous experiance with a job like this?<br>State what if yes. <br>
+            <textarea name="Largertextbox">Enter answer here</textarea><br>
+            <input type="submit" name="submit">
+        </form>
+    </div>
+
+    <div class="contact">
+        <h8>Questions? Contact us on:</h8>
+        <p>Email: application@hotbeanies.co.uk<br>Phone number: 07984 388334</p>
+    </div>
+
+</body>
+</html>
